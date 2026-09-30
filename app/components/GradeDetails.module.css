@@ -48,12 +48,12 @@
 
   .gradeBox h3 {
     margin-bottom: 8px;
-    font-size: 0.45rem;
   }
 
   .gradeBox ul {
-    font-size: 0.5rem;
-    column-gap: 12px;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-auto-flow: row;
     row-gap: 1px;
   }
 }

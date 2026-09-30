@@ -79,6 +79,7 @@ body {
   }
 
   .verificationPanel {
+    width: 100%;
     padding: 24px 0 28px;
   }
 }

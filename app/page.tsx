@@ -13,9 +13,9 @@ export default function Home() {
       <section className="verificationPanel">
         <div className="contentShell contentShellCompact">
           <VerificationBadge />
-          <h2 className="verificationTitle">
+          <h3 className="verificationTitle">
             AICTE Internship Certificate is successfully verified
-          </h2>
+          </h3>
 
           <CertificateDetails />
           <GradeDetails />
