@@ -60,10 +60,10 @@ body {
   margin: 0 auto 12px;
   max-width: 920px;
   text-align: center;
-  font-size: clamp(0.85rem, 1.2vw, 2rem);
+  font-size: 24px;
   line-height: 1.08;
   letter-spacing: -0.05em;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
 }
 
