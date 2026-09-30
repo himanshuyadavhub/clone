@@ -8,8 +8,8 @@ export default function VerificationBadge() {
         <Image
           src="/images/verified.png"
           alt="Verified badge"
-          width={250}
-          height={210}
+          width={261}
+          height={261}
           className={styles.badgeImage}
         />
       </div>

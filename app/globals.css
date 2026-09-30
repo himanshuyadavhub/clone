@@ -50,9 +50,10 @@ body {
 .verificationPanel {
   width: 50%;
   margin: 0 auto;
+  box-sizing: border-box;
   background: #0d6bb2;
   color: #ffffff;
-  padding: 8px 0 30px;
+  padding: 20px;
 }
 
 .verificationTitle {
