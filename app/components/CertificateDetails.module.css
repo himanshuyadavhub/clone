@@ -18,11 +18,11 @@
 }
 
 .label {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .value {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @media (max-width: 768px) {

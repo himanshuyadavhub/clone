@@ -6,7 +6,7 @@ export default function VerificationBadge() {
     <div className={styles.wrapper}>
       <div className={styles.imageWrap}>
         <Image
-          src="/images/verified.png"
+          src="/images/checked.gif"
           alt="Verified badge"
           width={261}
           height={261}
