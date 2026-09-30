@@ -1,0 +1,11 @@
+.header {
+  position: relative;
+  height: 530px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    aspect-ratio: 1923 / 498;
+  }
+}

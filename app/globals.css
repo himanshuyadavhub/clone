@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #ffffff;
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pageShell {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.topBand {
+  width: 100%;
+  background: #ffffff;
+}
+
+.contentShell {
+  width: min(1280px, calc(100% - 120px));
+  margin: 0 auto;
+}
+
+.contentShellCompact {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.verificationPanel {
+  width: 50%;
+  margin: 0 auto;
+  background: #0d6bb2;
+  color: #ffffff;
+  padding: 8px 0 30px;
+}
+
+.verificationTitle {
+  margin: 0 auto 12px;
+  max-width: 920px;
+  text-align: center;
+  font-size: clamp(0.85rem, 1.2vw, 2rem);
+  line-height: 1.08;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .contentShell,
+  .contentShellCompact {
+    width: min(100%, calc(100% - 12px));
+  }
+
+  .contentShell.contentShellCompact {
+    width: min(100%, calc(100% - 12px));
+    margin: 0 auto;
+  }
+
+  .verificationPanel {
+    padding: 24px 0 28px;
+  }
+}

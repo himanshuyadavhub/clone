@@ -1,0 +1,40 @@
+.section {
+  width: min(100%, 980px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  font-size: clamp(0.5rem, 0.8vw, 0.95rem);
+  line-height: 1.4;
+  color: #f4f9ff;
+}
+
+.label {
+  font-weight: 700;
+}
+
+.value {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+    gap: 2px;
+    padding-top: 6px;
+  }
+
+  .row {
+    font-size: 0.39rem;
+    line-height: 1.35;
+    gap: 4px;
+  }
+}
